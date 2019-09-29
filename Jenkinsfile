@@ -31,12 +31,19 @@ pipeline {
             }
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73ac585708d3088cccb761434323ee8731326eaa
         stage('Deploy') {
             steps {
                 sh './jenkins/deploy/deploy.sh'
             }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 73ac585708d3088cccb761434323ee8731326eaa
     }
 }
 
