@@ -16,34 +16,37 @@ pipeline {
 
                 '''
             }
-         }
-        
+
+            post {
+                success {
+                   archiveArtifacts artifacts: 'java-app/target/*.jar', fingerprint: true
+                }
+            }
+        }
+
         stage('Test') {
             steps {
                 sh './jenkins/test/mvn.sh mvn test'
             }
-         }
-         
-        
+
+            post {
+                always {
+                    junit 'java-app/target/surefire-reports/*.xml'
+                }
+            }
+        }
+
         stage('Push') {
             steps {
                 sh './jenkins/push/push.sh'
             }
         }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 73ac585708d3088cccb761434323ee8731326eaa
         stage('Deploy') {
             steps {
                 sh './jenkins/deploy/deploy.sh'
             }
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> 73ac585708d3088cccb761434323ee8731326eaa
     }
 }
 
