@@ -16,4 +16,4 @@
 	# Added the env file to define all the environment variables we want use in the pipeline 
 	# Added a credentials file created in the Jenkins GUI (secret text) to handle sensitive info as we don’t want to  
 	  put it in a text file 
-        # Added a post actions file used to define what happens when  a job succeed or fail
+       # Added a post actions file used to define what happens when  a job succeed or fail
