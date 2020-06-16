@@ -13,6 +13,7 @@ There are two types of pipelines: declarative & scripted.
 ```
 ```
 #############   STEP BY STEP technical instructions  #############
+
 # Installed the Jenkins Pipeline Plugin
 # created my first pipeline using a Jenkinsfile defining all the steps
 # Added multi-steps to my Pipeline
@@ -22,7 +23,7 @@ There are two types of pipelines: declarative & scripted.
 # Added a post actions file used to define what happens when  a job succeed or fail
 ```
 
-### CI/CD ###
+### CI/CD in a nutshell ###
 ```
 CI/CD is nothing else but a methodology/strategy to deploy code faster to production!
 Thinks that you have an app and you want to deploy it to prod. What should you do? Well you should do a lot manual things, like testing it yourself, compiling, deploying, etc. All of this is normally done manually by a human who can make mistakes! And probably that guy will be awake at 2 am deploying to prod.
