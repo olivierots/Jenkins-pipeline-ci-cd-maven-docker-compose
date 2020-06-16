@@ -26,12 +26,18 @@ There are two types of pipelines: declarative & scripted.
 ### CI/CD in a nutshell ###
 ```
 CI/CD is nothing else but a methodology/strategy to deploy code faster to production!
-Thinks that you have an app and you want to deploy it to prod. What should you do? Well you should do a lot manual things, like testing it yourself, compiling, deploying, etc. All of this is normally done manually by a human who can make mistakes! And probably that guy will be awake at 2 am deploying to prod.
+Thinks that you have an app and you want to deploy it to prod. What should you do? Well you should do a lot
+manual things, like testing it yourself, compiling, deploying, etc. All of this is normally done manually by
+a human who can make mistakes! And probably that guy will be awake at 2 am deploying to prod.
 
 So, how does CI/CD help?
-Well, you will define an entire workflow that will build,package, test and deploy automatically the appliacation for you! Isn't cool?
-The process is defined by some steps, starting at CI which is Continuous Integration, where you build an test your code; optionally, you could pass to Continuous Delivery, which deploys your built and tested app to a dev/stg/qa env (just to test again) and finally you deploy to production!
-CI not only packages all the software and database components, but the automation will also execute unit tests and other testing. This testing provides feedback to developers that their code changes didn’t break any existing unit tests.
+Well, you will define an entire workflow that will build,package, test and deploy automatically the appliacation
+for you! Isn't cool?
+The process is defined by some steps, starting at CI which is Continuous Integration, where you build an test your
+code; optionally, you could pass to Continuous Delivery, which deploys your built and tested app to a dev/stg/qa env
+(just to test again) and finally you deploy to production!
+CI not only packages all the software and database components, but the automation will also execute unit tests and
+other testing. This testing provides feedback to developers that their code changes didn’t break any existing unit tests.
 
 ```
 
