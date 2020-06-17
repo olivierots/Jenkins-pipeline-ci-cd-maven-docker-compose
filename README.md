@@ -1,19 +1,16 @@
 =======
 ## Jenkins_Pipeline project 2019 ##
 
-###  Pipeline ###
+###  Pipeline && Jenkinsfile ###
 ```
-what's a pipeline?  It’s the entire workflow that is executed when going through for the CI/CD process
-The process of developing, pushing, building, testing  & deploying your code into production 
-```
-### Jenkinsfile ###
-```
+what's a pipeline?  It’s the entire workflow that is executed when going through the CI/CD process
+which consist of developing, pushing, building, testing  & deploying your code to production.
 The Jenkinsfile is a template that contains all the steps for your build flow  e.g.  build, test & deploy
 There are two types of pipelines: declarative & scripted.
 ```
-```
-#############   STEP BY STEP technical instructions  #############
 
+#############   STEP BY STEP technical instructions  #############
+```
 # Installed the Jenkins Pipeline Plugin
 # created my first pipeline using a Jenkinsfile defining all the steps
 # Added multi-steps to my Pipeline
