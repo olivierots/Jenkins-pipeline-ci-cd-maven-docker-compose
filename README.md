@@ -47,5 +47,5 @@ other testing. This testing provides feedback to developers that their code chan
 ```
 
 ```
-Great article: https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
+Great article on CI/CD : https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
 ```
