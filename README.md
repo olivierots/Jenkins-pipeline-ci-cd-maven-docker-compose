@@ -1,5 +1,11 @@
 =======
 ## Jenkins_Pipeline project 2019 ##
+```
+Project description: 
+
+I am going to be using docker, jenkins & maven. Jenkins will build a docker image, test it, push it to a 
+registry and finally deploy it to prod. I will be working with a maven app.
+```
 
 ###  Pipeline && Jenkinsfile ###
 ```
@@ -11,7 +17,9 @@ There are two types of pipelines: declarative & scripted.
 
 #############   STEP BY STEP technical instructions  #############
 ```
-# Installed the Jenkins Pipeline Plugin
+* Installed the Jenkins Pipeline Plugin
+* 
+# 
 # created my first pipeline using a Jenkinsfile defining all the steps
 # Added multi-steps to my Pipeline
 # Added retry / timeout files to define the retry/timeout configs 
