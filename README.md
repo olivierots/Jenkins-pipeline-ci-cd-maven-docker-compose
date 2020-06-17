@@ -2,9 +2,10 @@
 ## Jenkins_Pipeline project 2019 ##
 ```
 Project description: 
+Build a real pipeline using jenkinsfile, CI/CD with jenkins, docker & maven.
+Jenkins will build a docker image, test it & push it to a registry and finally
+deploy it to prod using maven. I will be working with a maven app.
 
-I am going to be using docker, jenkins & maven. Jenkins will build a docker image, test it, push it to a 
-registry and finally deploy it to prod. I will be working with a maven app.
 ```
 
 ###  Pipeline && Jenkinsfile ###
@@ -17,15 +18,7 @@ There are two types of pipelines: declarative & scripted.
 
 #############   STEP BY STEP technical instructions  #############
 ```
-* Installed the Jenkins Pipeline Plugin
-* 
-# 
-# created my first pipeline using a Jenkinsfile defining all the steps
-# Added multi-steps to my Pipeline
-# Added retry / timeout files to define the retry/timeout configs 
-# Added the env file to define all the environment variables we want use in the pipeline 
-# Added a credential file created in the Jenkins GUI to handle sensitive info as we don’t want to put it in a text file  
-# Added a post actions file used to define what happens when  a job succeed or fail
+*** coming soon - whenever i get some spare time :) ***
 ```
 
 ### CI/CD in a nutshell ###
@@ -47,5 +40,5 @@ other testing. This testing provides feedback to developers that their code chan
 ```
 
 ```
-Great article on CI/CD : https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
+Great article: https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
 ```
